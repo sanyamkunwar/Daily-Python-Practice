@@ -1,1 +1,6 @@
 print('Its my first Day in Python. So just setting up the environment and getting started with the basics.')
+print('I am excited to learn and explore the world of Python.')
+print('I am ready to take on the challenges and make the most out of this experience.')
+print('I am looking forward to the journey ahead and the knowledge that I will gain.')
+print('I am ready to take on the challenges and make the most out of this experience.')
+print('I am looking forward to the journey ahead and the knowledge that I will gain.')
