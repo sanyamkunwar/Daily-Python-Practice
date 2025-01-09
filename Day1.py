@@ -1,0 +1,1 @@
+print('Its my first Day in Python. So just setting up the environment and getting started with the basics.')
