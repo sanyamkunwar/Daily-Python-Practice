@@ -67,4 +67,4 @@ def longest_non_repeat(str):
         
     return max_length
 
-longest_non_repeat(str)
+print(longest_non_repeat(str))
