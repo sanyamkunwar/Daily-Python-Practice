@@ -70,3 +70,12 @@ def longest_non_repeat(str):
 print(longest_non_repeat(str))
 #================================================================================================
 
+items = [
+    ("item1", 12.20),
+    ("item2", 15.10),
+    ("item3", 24.5)
+]
+
+# lambda function to sort items by price
+filtered = filter(lambda item: item[1] >= 15, items)
+print(list(filtered))
