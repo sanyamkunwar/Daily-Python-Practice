@@ -79,3 +79,33 @@ items = [
 # lambda function to sort items by price
 filtered = filter(lambda item: item[1] >= 15, items)
 print(list(filtered))
+
+#================================================================================================
+# Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn. Go to the editor
+# Sample value of n is 5 
+# Expected Result : 615
+
+a = int(input("Input an integer : "))
+n1 = int( "%s" % a )
+n2 = int( "%s%s" % (a,a) )
+n3 = int( "%s%s%s" % (a,a,a) )
+print (n1+n2+n3)
+
+#================================================================================================
+
+# Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.
+# Sample input : 5
+# Sample output : The number is odd.
+num = int(input("Input an integer : "))
+print("The number is even." if num%2 == 0 else "The number is odd.")
+#================================================================================================
+
+# Create a program that asks the user to enter their name and their age.
+# Print out a message addressed to them that tells them the year that they will turn 100 years old.
+
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2024 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+#================================================================================================
